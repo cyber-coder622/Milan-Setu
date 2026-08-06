@@ -5,9 +5,6 @@ async function startPayment() {
 
     try {
 
-        const amount = 25;
-
-        // Create order
         const response = await fetch(
             window.API_URL + "/api/payment/create-order",
             {
@@ -15,9 +12,7 @@ async function startPayment() {
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify({
-                    amount
-                })
+                body: JSON.stringify({})
             }
         );
 
