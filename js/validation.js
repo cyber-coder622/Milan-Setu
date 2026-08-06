@@ -804,60 +804,13 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("birthHour")){
-
-        showError(
-            "birthHour",
-            "Hour is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("birthHour");
-
-    }
+    clearError("birthHour");
 
 
-
-    if(!isRequired("birthMinute")){
-
-        showError(
-            "birthMinute",
-            "Minute is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("birthMinute");
-
-    }
+    clearError("birthMinute");
 
 
-
-    if(!isRequired("birthPeriod")){
-
-        showError(
-            "birthPeriod",
-            "Please select AM/PM."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("birthPeriod");
-
-    }
+    clearError("birthPeriod");
 
 
 
@@ -867,74 +820,16 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("placeOfBirth")){
 
-        showError(
-            "placeOfBirth",
-            "Place of Birth is required."
-        );
+    clearError("placeOfBirth");
 
-        valid = false;
+    clearError("religion");
 
-    }
+    clearError("gotra");
 
-    else{
+    clearError("rashi");
 
-        showSuccess("placeOfBirth");
-
-    }
-
-
-
-
-
-    if(!isRequired("religion")){
-
-        showError("religion","Religion is required.");
-
-        valid = false;
-
-    }else{
-
-        showSuccess("religion");
-
-    }
-
-    if(!isRequired("gotra")){
-
-        showError("gotra","Gotra is required.");
-
-        valid = false;
-
-    }else{
-
-        showSuccess("gotra");
-
-    }
-
-    if(!isRequired("rashi")){
-
-        showError("rashi","Rashi is required.");
-
-        valid = false;
-
-    }else{
-
-        showSuccess("rashi");
-
-    }
-
-    if(!isRequired("gan")){
-
-        showError("gan","Gan is required.");
-
-        valid = false;
-
-    }else{
-
-        showSuccess("gan");
-
-    }
+    clearError("gan");
 
 
 
@@ -944,23 +839,7 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("height")){
-
-        showError(
-            "height",
-            "Height is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("height");
-
-    }
-
+    clearError("height");
 
 
     /*
@@ -969,22 +848,7 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("complexion")){
-
-        showError(
-            "complexion",
-            "Complexion is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("complexion");
-
-    }
+    clearError("complexion");
 
 
 
@@ -994,22 +858,8 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("maritalStatus")){
+    clearError("maritalStatus");
 
-        showError(
-            "maritalStatus",
-            "Marital Status is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("maritalStatus");
-
-    }
 
 
 
@@ -1019,24 +869,7 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("caste")){
-
-        showError(
-            "caste",
-            "Caste is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("caste");
-
-    }
-
-
+    clearError("caste");
 
     /*
     ============================================================
@@ -1044,22 +877,7 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("subCaste")){
-
-        showError(
-            "subCaste",
-            "Sub Caste is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("subCaste");
-
-    }
+    clearError("subCaste");
 
 
 
@@ -1069,22 +887,7 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("manglik")){
-
-        showError(
-            "manglik",
-            "Manglik is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("manglik");
-
-    }
+    clearError("manglik");
 
 
 
@@ -1094,22 +897,7 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("language")){
-
-        showError(
-            "language",
-            "Language is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("language");
-
-    }
+    clearError("language");
 
 
 
@@ -1119,22 +907,7 @@ function validatePersonal(){
     ============================================================
     */
 
-    if(!isRequired("diet")){
-
-        showError(
-            "diet",
-            "Diet is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("diet");
-
-    }
+    clearError("diet");
 
 
 
@@ -1197,22 +970,8 @@ function validateEducation(){
     ============================================================
     */
 
-    if(!isRequired("highestQualification")){
 
-        showError(
-            "highestQualification",
-            "Highest Qualification is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("highestQualification");
-
-    }
+    clearError("highestQualification");
 
 
 
@@ -1222,22 +981,8 @@ function validateEducation(){
     ============================================================
     */
 
-    if(!isRequired("college")){
 
-        showError(
-            "college",
-            "College / University is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("college");
-
-    }
+    clearError("college");
 
 
 
@@ -1247,22 +992,8 @@ function validateEducation(){
     ============================================================
     */
 
-    if(!isRequired("Board10th")){
 
-        showError(
-            "Board10th",
-            "Board is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("Board10th");
-
-    }
+    clearError("Board10th");
 
     /*
     ============================================================
@@ -1270,23 +1001,8 @@ function validateEducation(){
     ============================================================
     */
 
-    if(!isRequired("Board12th")){
 
-        showError(
-            "Board12th",
-            "Board is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("Board12th");
-
-    }
-
+    clearError("Board12th");
 
     clearError("specialSkill");
 
@@ -1338,35 +1054,8 @@ function validateFamily(){
     ============================================================
     */
 
-    const fatherName = getValue("fatherName");
 
-    if(isEmpty(fatherName)){
-
-        showError(
-            "fatherName",
-            "Father's Name is required."
-        );
-
-        valid = false;
-
-    }
-
-    else if(!isValidName(fatherName)){
-
-        showError(
-            "fatherName",
-            "Only alphabets and spaces are allowed."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("fatherName");
-
-    }
+    clearError("fatherName");
 
 
 
@@ -1376,22 +1065,8 @@ function validateFamily(){
     ============================================================
     */
 
-    if(!isRequired("fatherOccupation")){
 
-        showError(
-            "fatherOccupation",
-            "Father's Occupation is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("fatherOccupation");
-
-    }
+    clearError("fatherOccupation");
 
 
 
@@ -1401,35 +1076,8 @@ function validateFamily(){
     ============================================================
     */
 
-    const motherName = getValue("motherName");
 
-    if(isEmpty(motherName)){
-
-        showError(
-            "motherName",
-            "Mother's Name is required."
-        );
-
-        valid = false;
-
-    }
-
-    else if(!isValidName(motherName)){
-
-        showError(
-            "motherName",
-            "Only alphabets and spaces are allowed."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("motherName");
-
-    }
+    clearError("motherName");
 
 
 
@@ -1439,22 +1087,7 @@ function validateFamily(){
     ============================================================
     */
 
-    if(!isRequired("motherOccupation")){
-
-        showError(
-            "motherOccupation",
-            "Mother's Occupation is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("motherOccupation");
-
-    }
+    clearError("motherOccupation");
 
 
 
@@ -1464,22 +1097,8 @@ function validateFamily(){
     ============================================================
     */
 
-    if(!isRequired("siblingsDetails")){
 
-        showError(
-            "siblingsDetails",
-            "Siblings Details is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("siblingsDetails");
-
-    }
+    clearError("siblingsDetails");
 
 
     /*
@@ -1533,22 +1152,8 @@ function validateWork(){
     ============================================================
     */
 
-    if(!isRequired("profession")){
 
-        showError(
-            "profession",
-            "Profession is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("profession");
-
-    }
+    clearError("profession");
 
 
     /*
@@ -1557,22 +1162,7 @@ function validateWork(){
     ============================================================
     */
 
-    if(!isRequired("organization")){
-
-        showError(
-            "organization",
-            "Organization is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("organization");
-
-    }
+    clearError("organization");
 
 
     /*
@@ -1581,22 +1171,8 @@ function validateWork(){
     ============================================================
     */
 
-    if(!isRequired("workPlace")){
 
-        showError(
-            "workPlace",
-            "Work Place is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("workPlace");
-
-    }
+    clearError("workPlace");
 
 
     /*
@@ -1605,23 +1181,8 @@ function validateWork(){
     ============================================================
     */
 
-    if(!isRequired("income")){
 
-        showError(
-            "income",
-            "Income is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("income");
-
-    }
-
+    clearError("income");
     return valid;
 
 }
@@ -1673,23 +1234,7 @@ function validatePartner(){
     ============================================================
     */
 
-    if(!isRequired("preferredLocation")){
-
-        showError(
-            "preferredLocation",
-            "Preferred Location is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("preferredLocation");
-
-    }
-
+    clearError("preferredLocation");
 
 
     /*
@@ -1698,34 +1243,8 @@ function validatePartner(){
     ============================================================
     */
 
-    const otherExpectations = getValue("otherExpectations");
 
-    if(otherExpectations !== ""){
-
-        if(!isValidLength(otherExpectations, 28)){
-
-            showError(
-                "otherExpectations",
-                "Other expectations cannot exceed 28 characters."
-            );
-
-            valid = false;
-
-        }
-
-        else{
-
-            showSuccess("otherExpectations");
-
-        }
-
-    }
-
-    else{
-
-        clearError("otherExpectations");
-
-    }
+    clearError("otherExpectations");
 
 
 
@@ -1804,59 +1323,18 @@ function validateContact(){
     ============================================================
     */
 
-    if(!isRequired("relation")){
 
-        showError(
-            "relation",
-            "Relation is required."
-        );
-
-        valid = false;
-
-    }
-
-    else{
-
-        showSuccess("relation");
-
-    }
+    clearError("relation");
 
 
 
     // Current Address
-    if(!isRequired("currentAddress")){
-
-        showError(
-            "currentAddress",
-            "Current Address is required."
-        );
-
-        valid = false;
-
-    }
-    else{
-
-        showSuccess("currentAddress");
-
-    }
+    clearError("currentAddress");
 
 
     // Permanent Address
-    if(!isRequired("permanentAddress")){
 
-        showError(
-            "permanentAddress",
-            "Permanent Address is required."
-        );
-
-        valid = false;
-
-    }
-    else{
-
-        showSuccess("permanentAddress");
-
-    }
+    clearError("permanentAddress");
 
 
 
