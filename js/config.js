@@ -3,9 +3,8 @@
 window.APP_NAME = "Milan Setu";
 
 window.API_URL =
-    window.location.hostname === "localhost"
-        ? "http://localhost:5000"
-        : "https://YOUR_BACKEND_URL";
+window.location.hostname === "localhost"
+  ? "http://localhost:5000"
+  : "https://backend-milan-setu.onrender.com";
 
-window.RAZORPAY_KEY =
-    "rzp_test_TLznkRxo5UGyFv";
+window.RAZORPAY_KEY = "rzp_live_TMkrTHVVB3QcaY";
